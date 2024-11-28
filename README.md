@@ -20,6 +20,7 @@ It's a little bit of oversampling, but it's not a problem for our hardware part.
 
 For the hardware part:
 The filter was made using: an operational amplifier LM324N which didn't need differential power supply, 2x 10kOhms resistors for R1 and R2, 2x 100kOhms resistors for RA and RB, 4.7 microFarad capacitor for C1 and 1 microFarad capacitor for C2. The power supply for the whole circuit (including the board) cam be adjusted up to 24V, but I chose 5V to compare directly to the maximum possible output of the microcontroller.
+
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/byytP.png)
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/Filter.jpg)
 After I've connected the input signal (sine wave) and the oscilloscope, I got the following result:
