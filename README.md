@@ -26,7 +26,7 @@ The filter was made using: an operational amplifier LM324N which didn't need dif
 After I've connected the input signal (sine wave) and the oscilloscope, I got the following result:
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/Filter_output.jpg)
 
-For the simulation on the microcontroller, I used a timer (TIM16) with it's prescaler adjuested to get 779 ms (to cover the whole sampling period) and for it's interrupt routine to not encounter any possible delays on the calculations. The values from the transfer functions were initialized as floats to get a precise result. In the routine I read the input with the ADC, calculate the output and transport it to the oscilloscope using the DAC. After connecting the oscilloscope, I got the following result:
+For the simulation on the microcontroller (STM32 NUCLEO-G071RB) , I used a timer (TIM16) with it's prescaler adjuested to get 779 ms (to cover the whole sampling period) and for it's interrupt routine to not encounter any possible delays on the calculations. The values from the transfer functions were initialized as floats to get a precise result. In the routine I read the input with the ADC, calculate the output and transport it to the oscilloscope using the DAC. After connecting the oscilloscope, I got the following result:
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/STM_output.jpg)
 
 The output differ a little because of the possible delays on the microcontroller or for a so low sampling time that physically almost can't be achieved on a microcontroller like this, but they look mostly the same. The discrete output can be seen too.
