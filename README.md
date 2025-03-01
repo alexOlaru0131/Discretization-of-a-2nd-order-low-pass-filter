@@ -10,7 +10,7 @@ which after discretization, in `discrete domain` it becomes:
 
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/H_FTJ_t.png)
 
-I placed it in the $z^-1$ form especially to get the parameters.
+I placed it in the $z^{-1}$ form especially to get the parameters.
 
 After that, I ran a simulation on `Simulink` to see what would be the result:
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/Simulink.png)
