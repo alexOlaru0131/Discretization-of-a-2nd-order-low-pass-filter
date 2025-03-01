@@ -1,8 +1,8 @@
 # Discretization-of-a-2nd-order-low-pass-filter-using-STM32
 
-In this project I simulated the characteristics of a 2nd order low pass filter that uses only capacitors and resistors by discretizing it's transfer function using the Tustin method.
+In this project I simulated the characteristics of a `2nd order low pass filter` that uses only `capacitors` and `resistors` by discretizing it's transfer function using the `Tustin method`.
 
-The transfer function in "s" domain is:
+The transfer function in `continuous domain` is:
 
 ![alt text](https://github.com/alexOlaru0131/Discretization-of-a-2nd-order-low-pass-filter-using-STM32/blob/main/Photos/H_FTJ.png)
 
